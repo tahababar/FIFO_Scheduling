@@ -10,10 +10,7 @@ Create a program that implements FIFO. Your simulation will randomly generate pr
 •	END_TIME: This number represents the ending time for the simulation.
 •	TIME_QUANTUM: This number represents the time quantum for the algorithm. It is not necessary for algorithms that do not require a time quantum.
 
-These constants must be clearly defined and named in this manner, and easily found in your code. The point is that they can be easily changed to modify the simulation. I will modify them when testing your code.
-
- 
-Each second in the simulation, you should generate a random number (between 0 and 99) and check it against CHANCE_OF_ARRIVAL to see if a new process arrives. If it does, you should randomly generate its running time (so it is between the minimum and maximum, using the appropriate constants), and add it to the ready processes. The CPU should execute the currently running process for 1 second, and (depending on the algorithm), decide to switch processes. Continue this process until the end time is reached.
+These constants must be clearly defined and named in this manner, and easily found in your code. The point is that they can be easily changed to modify the simulation. I will modify them when testing your code. Each second in the simulation, you should generate a random number (between 0 and 99) and check it against CHANCE_OF_ARRIVAL to see if a new process arrives. If it does, you should randomly generate its running time (so it is between the minimum and maximum, using the appropriate constants), and add it to the ready processes. The CPU should execute the currently running process for 1 second, and (depending on the algorithm), decide to switch processes. Continue this process until the end time is reached.
 
 
 Output:
