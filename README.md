@@ -1,4 +1,4 @@
-# FIFO_Scheduling
+# FIFO_Simulation
 Implementation of FIFO in a Java program
 
 Project Instructions:
